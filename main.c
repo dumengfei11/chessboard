@@ -29,7 +29,7 @@ void loop() {
   // 满足?条件使得 OK = true, 不满足?条件时 OK是否等于false,还是应该保持不变？
   // 如果霍尔返回值连续 waitting 次都是HIGH,则ok=true
   if(digitalRead(HALL_SENSOR) == HIGH) {
-    // 棋子不在位
+    // 棋子离开
     ww.counter++;
     // *ww.pc++;
     if(ww.counter >= ww.waitting){
