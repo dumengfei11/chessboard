@@ -6,12 +6,12 @@
 #define MOTOR_B 9
 // #define WAITTING 800000
 
-struct vars{
+struct waitter{
   long long waitting = 800000;
   long long counter = 0;
   // long long *pc;
 };
-vars ww;
+waitter ww;
 
 bool ok = false;
 
